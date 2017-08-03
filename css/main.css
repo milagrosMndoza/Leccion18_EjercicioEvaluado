@@ -1,23 +1,44 @@
 /* Agrega aquí tus estilos*/
-body {
+@import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One|Black+Ops+One|Chelsea+Market|Fredericka+the+Great|Londrina+Solid|Sigmar+One');
+/*Estilos básicos */
+html {
+margin: 0;
+padding: 0;
+}
+
+#css-zen-garden {
 margin : 0;
 padding : 0;
 font : 75%/1.4 verdana, Helvetica, sans-serif;
-background-image : url();
 text-align : center;
 }
 
 h1 {
-    text-align: center;
-    color: #21EA15;
-    font-size: 90px;
-    font-family: fantasy;
-    background-image : url(http://bancodeimagenesgratis.net/wp-content/uploads/2015/04/3.gif);
+margin : 0;
+padding : 0;
+text-align: center;
+color: #0CEE14;
+font-size: 90px;
+font-family: 'Londrina Solid', cursive;
+text-shadow: gray 6px 0;
+background-image : url(http://bancodeimagenesgratis.net/wp-content/uploads/2015/04/3.gif);
 }
+
+
 h2 {
-    text-align: center;
-    color: brown;
+margin : 0;
+padding : 0;
+text-align: right;
+background-image: url(http://bancodeimagenesgratis.net/wp-content/uploads/2015/04/3.gif);
+color:#9FA19F;
+font-family: 'Alfa Slab One', cursive;
+text-shadow: white -5px 0;
+text-decoration: underline;
+
 }
+
+
+
 h3 {
 height : 45px;
 margin : 0;
@@ -30,24 +51,32 @@ overflow : hidden;
 p {
 margin : 0;
 padding : 0;
+text-align: justify;
+font-family: font-family: 'Pacifico', cursive;
 }
-
-abbr {
-border : none;
-}
-
 
 a {
 color : #D9189F;
 background-color : #ffffff;
 text-decoration : underline;
+    
 }
+a:link { 
+font-weight: bold; 
+text-decoration: none; 
+color: #B7A5DF;
+	}
 
 a:hover, a:hover {
 color : greenyellow;
 background-color : #ffffff;
 }
 
+/* Agregando más estilos en los divs */
+
+abbr {
+border-bottom: none;
+}
 .page-wrapper {
 width : 772px;
 margin : 0 auto;
@@ -56,15 +85,15 @@ position : relative;
 background : repeat-x #A4FA9F;
 border-left : 1px solid #ffffff;
 border-right : 1px solid #ffffff;
-color : #454545;
+color : #49AE13;
 text-align : left;
 }
 
 header {
 width : 772px;
 height : 178px;
-background : url(top.jpg);
 }
+
 .summary p:first-child {
 display : none;
 }
@@ -102,21 +131,23 @@ margin-top : 15px;
 }
 .select{
     margin-top: 0px;
-}	   
+}	
+
+
 .sidebar {
     float: right;
 }
 .sidebar {
     margin-right: 580px; 
     position: absolute; 
-    top: 150px; 
+    top: 200px; 
     right: 0;
     border-color: black;
 }
 
 
 .sidebar h3 {
-width : 198px;
+width : 180px;
 height : 18px;
 margin-top : 20px;
 text-indent : 100%;
@@ -137,18 +168,19 @@ margin : 0;
 }
 .sidebar ul li:hover {
 background : #4CDE32;
-color : #FFF;
+color : #0CEEA1;
 }
 .sidebar .design-selection {
 color : #666;
 }
 .sidebar ul li a {
 display : inline;
-color : #000;
+font-family: 'Sigmar One', cursive;
+color : #9E7109;
 text-transform : lowercase;
 }
 .sidebar .design-selection ul li a {
-font : 14px "Trebuchet MS", Verdana;
+font-family: 'Sigmar One';
 display : block;
 color : #000;
 text-transform : lowercase;
