@@ -4,6 +4,7 @@
 html {
 margin: 0;
 padding: 0;
+background-image: url(../img/fondo.jpg);
 }
 
 #css-zen-garden {
@@ -55,17 +56,16 @@ text-align: justify;
 font-family: font-family: 'Pacifico', cursive;
 }
 
-a {
-color : #D9189F;
-background-color : #ffffff;
-text-decoration : underline;
-    
-}
+/*#zen-participation{
+image: url(../img/blossoms.jpg);
+}*/
+
 a:link { 
 font-weight: bold; 
 text-decoration: none; 
-color: #B7A5DF;
-	}
+color: grey;
+text-decoration : underline;
+}
 
 a:hover, a:hover {
 color : greenyellow;
@@ -77,8 +77,9 @@ background-color : #ffffff;
 abbr {
 border-bottom: none;
 }
+
 .page-wrapper {
-width : 772px;
+width : 780px;
 margin : 0 auto;
 padding : 0 13px;
 position : relative;
@@ -99,50 +100,49 @@ display : none;
 }
 
 .summary {
-    text-align: center;
+text-align: center;
 }
 
 .preamble, .supporting {
 width : 430px;
 margin-left : 250px;
-margin-top : 15px;
+margin-top : 5px;
 }
 
-
-}
 .explanation {
-    width: 50%;
-    float:right;
-    margin-left: 30px;
-}
-.participation {
-    width: 50%;
-}
-.supporting {   
-    padding-left: 10px; 
-    margin-bottom: 40px;
+width: 50%;
+float: right;
+margin-left: 30px;
 }
 
+.participation {
+width: 50%;
+}
+
+.supporting {   
+padding-left: 10px; 
+margin-bottom: 40px;
+}
 
 .intro { 
-    min-width: 470px;
-    width: 100%;
-    }
+ min-width: 470px;
+ width: 100%;
 }
+
 .select{
-    margin-top: 0px;
+ margin-top: 0px;
 }	
 
+.sidebar {
+float: right;
+}
 
 .sidebar {
-    float: right;
-}
-.sidebar {
-    margin-right: 580px; 
-    position: absolute; 
-    top: 200px; 
-    right: 0;
-    border-color: black;
+margin-right: 580px; 
+position: absolute; 
+top: 200px; 
+right: 0;
+border-color: black;
 }
 
 
@@ -159,35 +159,40 @@ overflow : hidden;
 list-style : none;
 padding : 0 0 18px 0;
 margin : 0;
-
 }
+
 .sidebar ul li {
 padding : 5px 10px 5px 10px;
 border-bottom : 1px solid #1A4861;
 margin : 0;
 }
+
 .sidebar ul li:hover {
 background : #4CDE32;
 color : #0CEEA1;
 }
+
 .sidebar .design-selection {
 color : #666;
 }
+
 .sidebar ul li a {
 display : inline;
 font-family: 'Sigmar One', cursive;
 color : #9E7109;
 text-transform : lowercase;
 }
+
 .sidebar .design-selection ul li a {
 font-family: 'Sigmar One';
 display : block;
 color : #000;
 text-transform : lowercase;
 }
+
 .sidebar .design-selection ul li a.designer-name, .sidebar ul li a.designer-name {
 display : inline;
 font : 10px "Trebuchet MS", Verdana;
-color : #666;
+color : gray;
 text-transform : none;
 }
